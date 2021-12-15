@@ -1,5 +1,6 @@
 spring:
   cloud:
     config:
+      import: "optional:configserver:"
       enabled: true
       uri: https://localhost:9296
